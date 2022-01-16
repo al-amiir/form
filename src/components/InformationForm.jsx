@@ -130,7 +130,7 @@ const InformationForm = () => {
 
               {/* ------------- Switch --------------- */}
               <Box sx={{ margin: "5px 0px" }}>
-                <FormLabel component="legend">Prefer Working Time</FormLabel>
+                <FormLabel component="legend">preferred Working Time</FormLabel>
                 <Field component={MaterialUISwitch} type="checkbox" name="switch" label="Disabled" />
               </Box>
 
